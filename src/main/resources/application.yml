@@ -1,0 +1,8 @@
+spring:
+  profiles:
+#    include: sub-db-table
+    include: sub-table
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.mvp.world.mybatisplusshardingdruid.model.po
